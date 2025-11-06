@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="title">My DOM Practice</h2>
+<div id="container"></div>
+<br>
+
+<button onclick="addText()">Append Text</button>
+<button onclick="addFirst()">Prepend Text</button>
+<button onclick="addBefore()">Before Title</button>
+<button onclick="addAfter()">After Title</button>
+<button onclick="removeTitle()">Remove Title</button>
+
+<script>
+function addText() {
+  let p = document.createElement("p");
+  p.textContent = "Added using append()";
+  document.getElementById("container").append(p);
+}
+
+function addFirst() {
+  let p = document.createElement("p");
+  p.textContent = "Added using prepend()";
+  document.getElementById("container").prepend(p);
+}
+
+function addBefore() {
+  let p = document.createElement("p");
+  p.textContent = "Added using before()";
+  document.getElementById("title").before(p);
+}
+
+function addAfter() {
+  let p = document.createElement("p");
+  p.textContent = "Added using after()";
+  document.getElementById("title").after(p);
+}
+
+function removeTitle() {
+  document.getElementById("title").remove();
+}
+</script>
+
+</body>
+</html>

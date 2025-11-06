@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <title>Register - TechHub</title>
+  <style>
+    body{
+        font-family: Arial;
+        text-align: center;
+    }
+    .input-field{
+      background: lightgray;
+      border: 1px solid gray;
+      padding: 5px;
+      transition: 0.3s;
+    }
+    .input-field:focus{
+      background: white;
+      border-color: darkcyan;
+    }
+    .registerbutton{
+      background: darkcyan;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .registerbutton:hover{
+      background: palevioletred;
+      transform: scale(1.1);
+    }
+    h2{
+      color: darkcyan;
+      animation: slide 1s;
+    }
+    @keyframes slide{
+      from {transform: translateY(-30px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+    <h2>Register for TechHub</h2>
+  <p>Welcome! Please fill the form below.</p>
+  <hr>
+
+  <label>Email</label><br>
+  <input type="email" placeholder="Enter Email" class="input-field"><br><br>
+
+  <label>Password</label><br>
+  <input type="password" placeholder="Enter Password" class="input-field"><br><br>
+
+  <label>Repeat Password</label><br>
+  <input type="password" placeholder="Repeat Password" class="input-field"><br><br>
+
+  <input type="checkbox"> I agree to the <a href="https://www.google.com/intl/en/policies/terms/archive/20070416/">
+    Terms & Privacy</a><br><br>
+
+  <button class="registerbutton">Register</button>
+  <p>Already have an account? <a href="Signin.html">Sign in</a>.</p>
+</body>
+</html>
