@@ -1,0 +1,12 @@
+.input-field {
+  background-color: lightgrey;
+  border: 1px solid grey;
+}
+.login-btn {
+  background-color: darkcyan;
+  color: white;
+  border: 1px solid black;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+}

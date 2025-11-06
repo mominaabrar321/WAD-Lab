@@ -1,0 +1,18 @@
+.input-field {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+}
+.btn-container {
+  background-color: darkcyan;
+}
+.register-btn {
+  background-color: darkcyan;
+  border: 1px solid darkcyan;
+  width: 250px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+}
+.signin-container {
+  background-color: lightgray;
+}

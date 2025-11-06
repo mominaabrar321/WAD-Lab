@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+header {
+  background: #555;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+}
+header .logo {
+  position: absolute;
+  left: 20px;
+  width: 80px;
+}
+header h1 {
+  margin: 0;
+}
+.main {
+  display: flex;
+  background: #ddd;
+  padding: 20px;
+}
+.sidebar {
+  width: 20%;
+  padding: 10px;
+  background: #eee;
+}
+.sidebar a {
+  text-decoration: none;
+  color: blue;
+}
+.content {
+  width: 60%;
+  padding: 20px;
+  background: white;
+}
+.rightbar {
+  width: 20%;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+}
+footer {
+  background: #555;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

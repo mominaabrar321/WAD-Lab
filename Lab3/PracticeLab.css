@@ -1,0 +1,53 @@
+body{
+    background-color: bisque;
+}
+h1{
+    color: black;
+    margin-left: 40px;
+}
+.Home{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: rgb(0, 255, 213);
+padding: 10px;
+}
+.Home{
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+.Home a:Home{
+    background: pink;
+    border-radius: 5px;
+}
+/* === Slider Styling === */
+
+
+.slider {
+  width: 800px;
+  height: 300px;
+  overflow: hidden;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.slides {
+  display: flex;
+  width: 300%; 
+  animation: slide 9s infinite;
+}
+
+.slides img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  33%  { transform: translateX(-100%); }
+  66%  { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
