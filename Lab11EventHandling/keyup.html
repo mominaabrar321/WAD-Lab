@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2> Live Typing</h2>
+  <input type="text" id="nameBox" placeholder="Type your name..." />
+  <p id="output"></p>
+
+  <script>
+    document.getElementById("nameBox").onkeyup = function() {
+      document.getElementById("output").innerText = "Hello, " + this.value;
+    };
+  </script>
+</body>
+</html>

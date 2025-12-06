@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: dodgerblue;
+            color: white;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="console.log('butten was clicked');alert('hello!')">click me!</button>
+<div onmouseover="console.log('you are inside div')">this is a box</div>
+<button id="btn1">click me!</button>
+<button id="btn2">click me!</button>
+<button id="btn3" style="background-color: aqua;">click me!</button>
+<script>
+    let btn=document.querySelector("#btn1");
+    btn1.onclick=()=>{
+        console.log("btn 1 was clicked");
+    }
+       btn2.onclick=()=>{
+        console.log("btn 2 was clicked");
+        let a=25;
+        a++;
+          let b=35;
+        b++;
+        console.log(a);
+          console.log(b);
+    }
+</script>
+<script src="events.js"></script>
+</body>
+</html>

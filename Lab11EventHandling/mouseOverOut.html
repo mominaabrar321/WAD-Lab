@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2> Growing Button</h2>
+  <button id="growBtn">Hover me!</button>
+
+  <script>
+    const btn = document.getElementById("growBtn");
+    btn.onmouseover = function() {
+      btn.style.transform = "scale(1.5)";
+      btn.style.transition = "0.3s";
+    };
+    btn.onmouseout = function() {
+      btn.style.transform = "scale(1)";
+    };
+  </script>
+</body>
+</html>
